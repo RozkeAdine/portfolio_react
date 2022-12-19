@@ -1,0 +1,17 @@
+svg{
+    width:2%;
+    height:auto;
+    margin-right: 2%;
+    padding-right: 2%;
+  }
+  .pra-footer{
+    position:fixed;
+    width: 100%;
+    text-align:center;
+    justify-content: center;
+    color:#f1f1f1;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+  }

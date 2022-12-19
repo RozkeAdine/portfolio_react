@@ -1,0 +1,19 @@
+h1 {
+    font-size: 450%;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #f1f1f1;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.71);
+  }
+
+@media (max-width:800px) {
+    h1 {
+        margin-top: 25%;
+        font-size: 250%;
+    }
+    .pra-name {
+        margin-top: 50px;
+    }
+
+}

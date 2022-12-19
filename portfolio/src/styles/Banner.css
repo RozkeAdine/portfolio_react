@@ -1,0 +1,20 @@
+.pra-banner {
+	color: white;
+	text-align: right;
+	padding: 32px;
+	border-bottom: solid 3px black;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+	align-items: center;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.pra-banner button {
+    margin-left: 20px;
+    color:white;
+}
+.pra-banner button:hover {
+    color: yellow;
+}
