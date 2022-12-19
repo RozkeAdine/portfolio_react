@@ -8,24 +8,24 @@ import '../styles/Banner.css';
 
 function Banner () {
     return <div className="pra-banner">
-                <button>
+                <a>
                     <Link to="/"> Accueil</Link>
-                </button>
-                <button>
+                </a>
+                <a>
                     <Link to="/Mise_En_Pratique">Mise en Pratique</Link>
-                </button>
-                <button>
+                </a>
+                <a>
                     <Link to="/Juvignac">Refonte du site</Link>
-                </button>
-                <button>
+                </a>
+                <a>
                     <Link to="/DonkeyCar">Location de voiture</Link>
-                </button>
-                <button>
+                </a>
+                <a>
                     <Link to="/ScrapAndCompare">Outils de comparaison</Link>
-                </button>
-                <button>
+                </a>
+                <a>
                     <Link to="/MonCV">Mon CV</Link>
-                </button>
+                </a>
             </div>
 }
 

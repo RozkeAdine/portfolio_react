@@ -11,10 +11,10 @@
     opacity: 0.7;
 }
 
-.pra-banner button {
+.pra-banner a {
     margin-left: 20px;
     color:white;
 }
-.pra-banner button:hover {
+.pra-banner a:hover {
     color: yellow;
 }
