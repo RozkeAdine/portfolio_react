@@ -8,7 +8,7 @@ function DonkeyCar () {
                 <h3>DonkeyCar</h3>
                 </div>
                 <div id="presentation">
-                        <a href="/DonkeyCar/index.php" target="_blank">
+                        <a href="http://portfoliorozkeadine.com/DonkeyCar/index.php" target="_blank">
                         <img src={donkeycar} alt="page accueil donkeycar"/>
                         </a>
                         <p>Ce projet nous a permis de mettre en pratique la méthode SCRUM consistant à la gestion de projet via des sprints hebdomadaires et du dialogue entre développeurs.<br/>
