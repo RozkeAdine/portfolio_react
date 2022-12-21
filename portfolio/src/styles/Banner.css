@@ -18,9 +18,3 @@
 .pra-banner a:hover {
     color: yellow;
 }
-
-@media (max-width:600px) {
-.pra-banner a{
-	font-size: 10px;
-	}
-	}
