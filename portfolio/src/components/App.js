@@ -26,6 +26,8 @@ function App() {
         <Route path="" element={<Home/>} />
         <Route path="/portfolio_react/" element={<Home/>} />
         <Route path="portfolio_react/" element={<Home/>} />
+        <Route path="portfolio_react" element={<Home/>} />
+        <Route path="/portfolio_react" element={<Home/>} />
         <Route path="/Mise_En_Pratique" element={<Mise_En_Pratique/>} />
         <Route path="/Juvignac" element={<Juvignac/>} />
         <Route path="/DonkeyCar" element={<DonkeyCar/>} />
