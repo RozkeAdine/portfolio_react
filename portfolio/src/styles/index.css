@@ -21,3 +21,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media (max-width:800px) {
+  p{
+    margin:0;
+    padding-bottom:20%;
+  }
+  .pra-footer svg{
+    width: 10%;
+    height:auto;
+    margin-right: 2%;
+    padding-right: 2%;
+    color:#f1f1f1;
+  }
+}
