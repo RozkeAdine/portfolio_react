@@ -1,12 +1,12 @@
 import page01 from "../assets/page01.png";
 
-function Mise_En_Pratique () {
+function MiseEnPratique () {
 return (
     <div>
         <h4>mise en pratique</h4>
         <h3>Premier portfolio</h3>
         <div id="presentation">
-            <a href="http://portfoliorozkeadine.com/premier_portfolio/portfolio.html" target="_blank">
+            <a href="http://portfoliorozkeadine.com/premier_portfolio/portfolio.html" target="_blank" rel="noreferrer">
                 <img src={page01} alt="page accueil premier portfolio"/>
             </a>
             <p>Lors de mon intégration en formation, nous avons appris les bases du HTML et CSS.
@@ -17,4 +17,4 @@ return (
 )
 }
 
-export default Mise_En_Pratique
+export default MiseEnPratique

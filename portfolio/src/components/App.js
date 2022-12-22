@@ -4,10 +4,10 @@ import {
 	Route,
 	Link
 } from 'react-router-dom';
-import logo from '../assets/logo.svg';
+// import logo from '../assets/logo.svg';
 import '../styles/App.css';
 import Banner from './Banner';
-import Mise_En_Pratique from './Mise_En_Pratique';
+import MiseEnPratique from './MiseEnPratique';
 import Juvignac from './Juvignac';
 import DonkeyCar from './DonkeyCar';
 import ScrapAndCompare from './ScrapAndCompare';
@@ -28,7 +28,7 @@ function App() {
         <Route path="portfolio_react/" element={<Home/>} />
         <Route path="portfolio_react" element={<Home/>} />
         <Route path="/portfolio_react" element={<Home/>} />
-        <Route path="/Mise_En_Pratique" element={<Mise_En_Pratique/>} />
+        <Route path="/Mise_En_Pratique" element={<MiseEnPratique/>} />
         <Route path="/Juvignac" element={<Juvignac/>} />
         <Route path="/DonkeyCar" element={<DonkeyCar/>} />
         <Route path="/ScrapAndCompare" element={<ScrapAndCompare/>} />
