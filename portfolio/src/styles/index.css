@@ -22,7 +22,7 @@ code {
     monospace;
 }
 
-@media (max-width:800px) {
+/* @media (max-width:800px) {
   p{
     margin:0;
     padding-bottom:20%;
@@ -37,4 +37,4 @@ code {
   .pra-banner a{
     font-size: 10px;
     }
-}
+} */
