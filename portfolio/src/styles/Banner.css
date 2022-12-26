@@ -1,20 +1,71 @@
-.pra-banner {
-	color: white;
-	text-align: right;
-	padding: 32px;
-	border-bottom: solid 3px black;
+@media screen and (min-width: 200px) and (max-width:767px) {
+	#burger
+	{
+	display: none;
+	}
+	.navlink a{
+		font-size: 30px;
+		padding:0;
+		margin:0;
+		background-color: black;
+	}
+	#burger + #navlinks
+	{
+	display: none;
+	}
+	#burger:checked + #navlinks
+	{
 	display: flex;
-	justify-content: flex-end;
-	flex-direction: row;
-	align-items: center;
-    background-color: black;
-    opacity: 0.7;
-}
+	flex-direction: column;
+	width:100%;
+	height:calc(100vh - 50px);
+	right:0;
+	top: 50px;
+	position: absolute;
+	background-color: black;
+	}
+	.pra-banner {
+		color: white;
+	}
+	li
+	{
+	background-color: black;
+	display: -ms-grid;
+	display: grid;
+	padding: 8%;
+	}
 
+}	
+
+label img {
+	max-width: 64px;
+	background-color: rgba(0, 0, 0, 0);
+}
 .pra-banner a {
-    margin-left: 20px;
-    color:white;
+	margin-left: 20px;
+	color:white;
 }
 .pra-banner a:hover {
-    color: yellow;
+	color: yellow;
+}
+.pra-banner {
+	color: white;
+    background-color: black;
+    opacity: 0.7;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#navlinks{
+	display:flex;
+	align-items: center;
+}
+.navlink{
+	padding:0 10px;
+}
+.navlink a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
 }

@@ -9,6 +9,28 @@ body {
   background-image: url(../assets/7327853_3633337.jpg);
 }
 
+
+
+@media screen and (min-width: 200px) and (max-width:767px) {
+  p{
+    margin:0;
+    padding-bottom:20%;
+  }
+
+  .pra-footer svg{
+    width: 10%;
+    height:auto;
+    margin-right: 2%;
+    padding-right: 2%;
+    color:#f1f1f1;
+  }
+  .pra-banner a{
+    font-size: 10px;
+    }
+
+}
+
+@media screen and (min-width:767px) {
 p {
   margin:0 250px;
   font-size: 30px;
@@ -21,20 +43,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-@media (max-width:600px) {
-  p{
-    margin:0;
-    padding-bottom:20%;
+label{
+  display:none;
   }
-  .pra-footer svg{
-    width: 10%;
-    height:auto;
-    margin-right: 2%;
-    padding-right: 2%;
-    color:#f1f1f1;
+#burger {
+  display:none;
   }
-  .pra-banner a{
-    font-size: 10px;
-    }
-}
+  }
