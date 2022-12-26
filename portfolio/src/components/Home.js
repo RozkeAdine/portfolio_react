@@ -5,7 +5,7 @@ function Home () {
         <div className='pra-home'>
             <span>
                 <button>
-                <a href="http://portfoliorozkeadine.com/" target="_blank">Version HTML</a>
+                <a href="http://portfoliorozkeadine.com/" target="_blank" rel="noreferrer">Version HTML</a>
                 </button>
             </span><br/>
             <h1>

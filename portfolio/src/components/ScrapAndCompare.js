@@ -8,7 +8,7 @@ function ScrapAndCompare () {
                 <h3>Scrap and Compare</h3>
             </div>
                 <div id="presentation">
-                    <a href="../assets/scrapandcomparesiteenconstruction.png" target="_blank">
+                    <a href="../assets/scrapandcomparesiteenconstruction.png" target="_blank" rel="noreferrer">
                         <img src={scrapandcompare} alt="page accueil scrap and compare"/>
                     </a>
                     <p>
