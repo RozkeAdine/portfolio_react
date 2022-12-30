@@ -9,6 +9,8 @@ import burger from "../assets/menu_burger_withe.png";
 
 
 function Banner () {
+
+
     return <div className="pra-banner">
         <label for="burger">
             <img src={burger} alt="image menu"/>
@@ -16,13 +18,13 @@ function Banner () {
         <input type="checkbox" id="burger"></input>
         <ul id="navlinks">
             <li>
-                <a className="navlink">
+                <a className="navlink" >
                     <Link to="/">
                         Accueil
                     </Link></a>
             </li>
             <li>
-                <a className="navlink">
+                <a className="navlink" >
                     <Link to="/Mise_En_Pratique">
                         Mise en Pratique
                         </Link></a>
